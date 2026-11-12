@@ -55,3 +55,80 @@
 * [Task 1]
 * [Task 2]
 * **Operational Workflows:**
+
+---
+
+# SeattleAsianLife — Use Cases
+
+## Use Case 1: Discover Asian Cultural Destinations
+
+### Who is the User?
+
+- **Persona/Role:** A new UW international student.
+- **Context:** The student recently moved to Seattle and is unfamiliar with local Asian restaurants, cafés, grocery stores, and cultural or recreational activities. They want to explore places connected to Asian cultures.
+
+### What Do They Want to Do with the Tool?
+
+- **Primary Tasks:**
+
+  - Browse destinations by category.
+  - Search for destinations by name or keyword.
+  - View destination details and locations on a map.
+
+- **Operational Workflows:**
+
+  1. The user opens the SeattleAsianLife platform.
+  2. The user selects a category or enters a search keyword.
+  3. The system displays matching destinations in a list or map view.
+  4. The user selects a destination to view its details.
+  5. The system displays available information, including its description, address, price range, and relevant reviews.
+  6. The user can follow a map link to locate the destination.
+  7. If no results are found, the system displays an appropriate message and allows the user to adjust their search.
+
+### What Needs and Desires Do They Have for the Tool?
+
+- Clear categories and an intuitive search interface.
+- Reliable destination descriptions and location information.
+- An interactive map for exploring unfamiliar neighborhoods.
+- A simple way to discover places without knowing their names in advance.
+
+### What Is Their Skill Level?
+
+- **Beginner to Intermediate:** Familiar with smartphones and Google Maps but unfamiliar with Seattle's local destinations.
+
+---
+
+## Use Case 2: Filter and Compare Destinations
+
+### Who is the User?
+
+- **Persona/Role:** A budget-conscious UW student.
+- **Context:** The student wants to explore Seattle but has limited time and money. They need to compare several destinations before deciding where to go.
+
+### What Do They Want to Do with the Tool?
+
+- **Primary Tasks:**
+
+  - Filter destinations by category, location, and price range.
+  - Compare multiple destinations using available information.
+  - Choose an option that meets their preferences and budget.
+
+- **Operational Workflows:**
+
+  1. The user searches for destinations or selects a category.
+  2. The system displays matching results.
+  3. The user applies filters such as price range, category, and distance.
+  4. The system updates the results based on the selected filters.
+  5. The user opens several destinations to compare their prices, locations, and available ratings.
+  6. The user selects a destination that best meets their needs.
+
+### What Needs and Desires Do They Have for the Tool?
+
+- Easy-to-use filtering and sorting options.
+- Clearly displayed prices and estimated costs.
+- Consistent information that makes comparisons easier.
+- An indication when prices or other information are unavailable or outdated.
+
+### What Is Their Skill Level?
+
+- **Beginner to Intermediate:** Comfortable using search engines and basic filters but has limited experience with specialized recommendation tools.
