@@ -1,4 +1,4 @@
-# CSE583-SeattleAsianLife
+# SeattleAsianLife
 
 ## Contributors
 
