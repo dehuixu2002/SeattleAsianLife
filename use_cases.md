@@ -34,41 +34,41 @@
   5. He checks the food safety inspection records of the restaurants.
   6. He selects a restaurant with affordable meals and checks its location on the map.
 
-# Use Case: Discover Asian Cultural Destinations
+# Use Case: Discovering Asian Cultural Destinations in Seattle
 ### Who is the User?
-* **Persona/Role:** A new UW international student.
-* **Context:** The student recently moved to Seattle and is unfamiliar with local Asian restaurants, cafés, grocery stores, and cultural or recreational activities. They want a simple way to discover places connected to Asian cultures without knowing their names in advance. They are familiar with smartphones and Google Maps but have limited knowledge of Seattle's local destinations.
+* **Persona/Role:** Yuki Tanaka, a first-year international undergraduate student at UW.
+* **Context:** Yuki recently moved to Seattle and is not familiar with local Asian restaurants, cafés, grocery stores, or cultural activities. She wants to explore places connected to Asian cultures during her free time. She uses smartphones and Google Maps regularly but has never used a local destination guide.
 ### What Do They Want to Do with the Tool?
 * **Primary Tasks:**
-  * Browse destinations using clear categories and an intuitive search interface.
+  * Browse Asian restaurants, cafés, grocery stores, and cultural activities by category.
   * Search for destinations by name or keyword.
-  * View reliable destination descriptions, addresses, price ranges, and relevant reviews.
-  * Explore unfamiliar neighborhoods using an interactive map and destination map links.
+  * View destination descriptions, addresses, price ranges, and available reviews.
+  * Explore destination locations on an interactive map and open map links for directions.
 * **Operational Workflows:**
-  1. The student opens the SeattleAsianLife platform.
-  2. They select a category or enter a search keyword.
-  3. They browse matching destinations in a list or map view.
-  4. They select a destination to view its description, address, price range, and relevant reviews.
-  5. They follow a map link to locate the destination.
-  6. If no results are found, they see an appropriate message and adjust their search.
+  1. Yuki opens the SeattleAsianLife platform.
+  2. She selects a category or enters a keyword to find places she wants to explore.
+  3. She browses the matching destinations in a list or map view.
+  4. If no results are found, she reads the message and adjusts her category or keyword.
+  5. She opens a destination to check its description, address, price range, and available reviews.
+  6. She selects a destination and follows its map link to find directions.
 
-# Use Case: Filter and Compare Destinations
+# Use Case: Comparing Affordable Destinations for a Weekend Outing
 ### Who is the User?
-* **Persona/Role:** A budget-conscious UW student.
-* **Context:** The student wants to explore Seattle but has limited time and money. They need to compare several destinations before choosing an option that meets their preferences and budget. They are comfortable using search engines and basic filters but have limited experience with specialized recommendation tools.
+* **Persona/Role:** Ethan Lin, an undergraduate student at UW who has a limited budget for weekend outings.
+* **Context:** Ethan wants to explore Seattle with friends but has limited time and money. He needs to compare several destinations before choosing where to go. He is comfortable using search engines and basic filters but has never used a specialized destination recommendation tool.
 ### What Do They Want to Do with the Tool?
 * **Primary Tasks:**
-  * Filter and sort destinations by category, location, distance, and price range using simple controls.
-  * Compare destinations using consistently displayed prices, estimated costs, locations, and available ratings.
-  * Check whether prices or other information are unavailable or outdated.
-  * Choose a destination that meets their preferences and budget.
+  * Filter destinations by category, location, distance, and price range.
+  * Sort results and compare prices, estimated costs, locations, and available ratings.
+  * Check whether price information or other details are unavailable or outdated.
+  * Find a destination that meets his preferences, travel time, and budget.
 * **Operational Workflows:**
-  1. The student opens the SeattleAsianLife platform and searches for destinations or selects a category.
-  2. They browse the matching results.
-  3. They apply filters such as price range, category, and distance.
-  4. They review the results updated by the system based on the selected filters and sort them as needed.
-  5. They open several destinations to compare prices, estimated costs, locations, and available ratings, checking any indications of missing or outdated information.
-  6. They select a destination that best meets their needs.
+  1. Ethan opens the SeattleAsianLife platform.
+  2. He searches for destinations or selects a category for the outing.
+  3. He applies price range, category, and distance filters, then reviews and sorts the updated results.
+  4. He opens several destinations to compare their prices, estimated costs, locations, and available ratings.
+  5. He checks for missing or outdated information before comparing the options.
+  6. He selects a destination that fits his budget and checks its location on the map.
 
 # Use Case: [Brief Title / Persona Goal]
 ### Who is the User?
