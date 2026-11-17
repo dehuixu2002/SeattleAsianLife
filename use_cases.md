@@ -354,6 +354,15 @@
 * **Technical Proficiency:** Low. Linda has basic smartphone skills and rarely uses grocery search tools.
 * **Domain Knowledge:** Beginner. She is unfamiliar with local grocery stores and official inspection records.
 
+### Review Markup
+
+- **Goal:** Linda chooses a grocery store where she can buy ingredients for a family meal and understand the available inspection and parking information.
+- **User actions and system information:** Linda searches near a planned location and reviews products, inspection records, and parking. The system provides store locations, available product details, inspection information, and nearby parking locations and rates.
+- **Functional needs / system responsibilities:** Support grocery-store search and display the source, date, and availability of inspection and parking information. Label estimates or historical parking data clearly.
+- **Preferences / accessibility:** Linda prefers simple instructions and clear details. No specific accessibility needs are stated; confirm whether text-size or screen-reader support is needed.
+- **Standard and edge cases:** Normally, Linda compares stores and selects one. If inspection or parking data is missing, the guide should state that clearly and let her compare another store.
+- **Assumptions / questions to clarify:** Does the food inspection dataset cover grocery stores and the relevant food areas? What source provides product details? What does “clean” mean in this use case? Parking estimates should not be presented as live availability.
+
 # Use Case: Planning and Sharing a Multi-Stop Outing
 
 ### Who is the User?
@@ -380,6 +389,15 @@
 
 * **Technical Proficiency:** Medium. The student is comfortable browsing and sharing links.
 * **Domain Knowledge:** Beginner to intermediate. The student may not know all the local destinations.
+
+### Review Markup
+
+- **Goal:** The student creates and shares an outing plan with several Asian-related destinations.
+- **User actions and system information:** The student searches across categories, compares places, adds stops to a plan, views them on a map, and shares the plan. The system provides place details, estimated costs, travel information, and a shareable plan.
+- **Functional needs / system responsibilities:** Support cross-category search, destination comparison, adding and removing stops, map display, and plan sharing. Clearly label missing cost or travel information.
+- **Preferences / accessibility:** The student wants to coordinate plans without switching between many apps. No specific accessibility needs are stated; confirm whether the planning and sharing flow needs additional support.
+- **Standard and edge cases:** Normally, the student adds several places and shares the plan. If cost or travel information is unavailable, show that; if a place cannot be added, allow the student to share its individual listing or map link.
+- **Assumptions / questions to clarify:** Does the map show pins only or a suggested route? Which travel modes are supported—walking, transit, driving, or biking? Does sharing require an account? How are estimated costs calculated?
 
 # Use Case: Writing and Reading Reviews for Local Places
 
@@ -408,6 +426,15 @@
 * **Technical Proficiency:** Low to medium. The student can use a basic form and rating controls.
 * **Domain Knowledge:** Beginner. The student understands personal reviews but may need clear labels distinguishing them from official inspection data.
 
+### Review Markup
+
+- **Goal:** The student uses recent reviews to make a decision and can share feedback after visiting a place.
+- **User actions and system information:** The student reads and sorts reviews, then may submit a review with a visit date, price paid, and category ratings. The system displays reviews by date and keeps personal reviews distinct from official inspection information.
+- **Functional needs / system responsibilities:** Support review submission and sorting, allow optional details to be left blank, and label user opinions separately from official records.
+- **Preferences / accessibility:** The student wants an easy-to-complete form and useful, current reviews. No specific accessibility needs are stated; confirm whether the form should support keyboard navigation or screen readers.
+- **Standard and edge cases:** Normally, the student reads reviews and submits one after a visit. If date or price is unknown, those fields may be left blank; conflicting reviews should remain identified as individual opinions.
+- **Assumptions / questions to clarify:** Are reviews moderated? Can users edit or delete them? Are accounts required? What rating criteria apply to different categories, such as grocery stores versus cafés?
+
 # Use Case: Maintaining Accurate Place Listings and Imported Data
 
 ### Who is the User?
@@ -435,3 +462,12 @@
 
 * **Technical Proficiency:** Medium to high. The curator is comfortable with spreadsheets and structured data.
 * **Domain Knowledge:** Intermediate to advanced. The curator understands data maintenance but may need clear rules for resolving duplicates and documenting sources.
+
+### Review Markup
+
+- **Goal:** The curator keeps place listings and imported data accurate, traceable, and clearly distinguished by source.
+- **User actions and system information:** The curator reviews imported data, checks for duplicates or outdated details, updates listings, and records data sources and update dates. The system should show source and update metadata and allow uncertain records to be flagged.
+- **Functional needs / system responsibilities:** Support adding and updating listings, identifying possible duplicates, recording data provenance, and separating official data from user-submitted content. Avoid automatically merging records when the match is uncertain.
+- **Preferences / accessibility:** The curator wants a consistent workflow that makes uncertainty easy to review. No specific accessibility needs are stated; confirm whether the data-maintenance interface needs them.
+- **Standard and edge cases:** Normally, the curator verifies and updates records. If a listing is uncertain or a data source is unavailable, flag the issue and record the limitation instead of presenting the information as verified.
+- **Assumptions / questions to clarify:** What counts as a duplicate or outdated listing? Which sources may be imported, and what attribution or usage terms apply? Is there a review history showing who changed a listing and when?
