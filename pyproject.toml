@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel", "setuptools_scm>=8.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seattle-asian-life"
+dynamic = ["version"]
+authors = [
+    { name = "dehuixu2002" },
+    { name = "EvanFan1213" },
+    { name = "xinyz62" },
+    { name = "Yan15T" },
+]
+description = "A searchable guide to Asian restaurants, cafes, grocery stores, and cultural activities in Seattle."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools_scm]
+
+[tool.setuptools.packages.find]
+where = ["src"]
