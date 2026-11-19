@@ -24,3 +24,7 @@ classifiers = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/dehuixu2002/SeattleAsianLife"
+Issues = "https://github.com/dehuixu2002/SeattleAsianLife/issues"
